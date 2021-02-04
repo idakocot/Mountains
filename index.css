@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.container {
+    background-image: url("zdjęcia/mainimage.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: 100%; 
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+header {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    font-weight: initial;
+}
+
+header > h1 {
+    font-weight: lighter;
+}
+
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    align-items: flex-start;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    background-size: cover;
+    border-radius: 20px 0px;
+    padding: 22px 0px;
+    width: 100%;
+}
+
+
+.item {
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0 60px;
+    transition-duration: 1s;
+}
+
+
+.item:hover {
+    text-shadow: white 1px 1px 1px;
+}
+
+
+ul  {
+    list-style-type: none;
+}
+
+ a {
+    text-decoration: none;
+    color: #ffffff;
+ }
+  
